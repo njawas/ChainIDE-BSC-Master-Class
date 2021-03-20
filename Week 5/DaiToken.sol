@@ -1,7 +1,4 @@
-pragma solidity ^0.6.0;
-contract DaiToken {
-    string  public name = "Mock DAI Token";                      // Set the name for display purposes
-    string  public symbol = "mDAI";                             // Set the symbol for display purposes
+// Set the symbol for display purposes
     uint256 public totalSupply_ = 1000000000000000000000000;    // Give the creator all initial tokens (100000 for example)
     uint8   public decimals = 18;                               // Amount of decimals for display purposes
 
